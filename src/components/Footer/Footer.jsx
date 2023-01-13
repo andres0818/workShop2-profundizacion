@@ -1,17 +1,14 @@
 import React from 'react'
 import Menu from '../Menu/Menu'
 
-import './Footer.scss'
-
-
-import facebook from './img/icon-facebook.svg'
+import facebook from './img/facebook.svg'
 import instagram from './img/icon-instagram.svg'
 import pinterest from './img/icon-pinterest.svg'
 import twitter from './img/icon-twitter.svg'
 
+import './Footer.scss'
 
 const Footer = () => {
-
     const redes = [facebook, instagram, pinterest, twitter]
 
     return (
