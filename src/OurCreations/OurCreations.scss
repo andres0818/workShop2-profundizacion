@@ -64,3 +64,28 @@
     font-size: 2.0em;
 
 }
+
+.mobile {
+    display: none;
+}
+
+
+@media (max-width: 375px) {
+
+    .escritorio {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+    .seccion-cartas-mobile {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto
+    }
+
+    .boton{
+        margin-left: 220px;
+    }
+}
