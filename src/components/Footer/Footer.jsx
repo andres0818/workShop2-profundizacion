@@ -17,7 +17,7 @@ const Footer = () => {
             <div className='footer'>
                 <div className='footer__info'>
                     <h1 className='footer__titulo'>loopstudio</h1>
-                    <Menu />
+                    <Menu/>
                 </div>
                 <div className='footer__redes'>
                     <Menu lista={redes} />
@@ -25,7 +25,6 @@ const Footer = () => {
                 </div>
             </div>
         </>
-
     )
 }
 
