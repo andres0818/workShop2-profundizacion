@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.cabecera {
+
+    height: 70vh;
+    background-image: url('./img/cabecera.jpg');
+    background-size: cover;
+    color: white;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 150px 0 150px;
+        padding-top: 30px;
+        font-family: 'alata';
+    }
+
+    &__contenido {
+        margin-left: 150px;
+        padding: 50px;
+        width: 40%;
+        font-family: 'josefin sans';
+        font-weight: 300;
+        font-size: 70px;
+        border: solid white 2px;
+    }
+}

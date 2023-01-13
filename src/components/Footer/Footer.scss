@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+
+
+.footer {
+
+    height: 25vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+   
+    &__info{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding-left: 10vh;
+        
+    }
+
+    &__titulo{
+        margin-left: 42px;
+        color: white;
+    }
+
+    &__redes{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        color: gray;
+        margin-right:15vh ;
+    }
+    
+}
+
+
