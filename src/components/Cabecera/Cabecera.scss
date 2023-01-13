@@ -12,7 +12,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 0 auto;
+        margin: 0 50px;
         padding-top: 30px;
         font-family: 'alata';
     }
@@ -29,7 +29,7 @@
 }
 
 
-@media (max-width:2390px) {
+@media (max-width:390px) {
     .cabecera {
 
         background-image: url('./img/rensponsive.jpg');
@@ -46,6 +46,7 @@
 
         &__header {
             padding:30px 10px 0 10px;
+            margin: auto;
         }
 
 
