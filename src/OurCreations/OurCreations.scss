@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+.seccion-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:0 150px 0 150px;
+}
+
+.titulo  {
+  font-family: "josefin sans";
+  font-size: xxx-large;
+}
+
+.boton{
+    border: 2px solid black;
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: "josefin sans";
+    font-weight: bold;
+
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+
+}
+
+.seccion-cartas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    max-width: max-content;
+    margin: 0 auto;
+}
+
+.contenido-carta{
+    position: relative;
+    &:hover{
+        color: black;
+        cursor: pointer;
+    }
+}
+
+.subtitulo{
+    position: absolute;
+    bottom: 0;
+    padding: 0 1.5em;
+    font-family: "josefin sans";
+    te
