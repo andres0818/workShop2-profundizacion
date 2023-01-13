@@ -13,10 +13,10 @@ const Cabecera = () => {
       <div className='cabecera__header'>
         <h1 className='cabecera__titulo'>loopstudios</h1>
         <div>
-          <div className='nav__menu'>
+          <div className='nav__menus'>
             <Menu />
-          </div>
-          <img className='nav__responsiveMenu' src={icon} alt="" />
+          </div>          
+          <img className='nav__responsiveMenu' src={icon} alt="" />          
         </div>
       </div>
       <h1 className='cabecera__contenido'>INMERSIVE EXPERIENCES THAT DELIVER</h1>
