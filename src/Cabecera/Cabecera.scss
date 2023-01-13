@@ -12,25 +12,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin:0 150px 0 150px;
-        padding-top:30px ;
+        margin: 0 150px 0 150px;
+        padding-top: 30px;
         font-family: 'alata';
     }
 
-    &__nav {
-        display: flex;
-        gap: 20px;
-    }
-
-    &__menu {
-        text-decoration: none;
-        color: white;
-        font-family: 'alata';    
-        position: relative;
-        overflow: hidden;
-        
-    }
-    
     &__contenido {
         margin-left: 150px;
         padding: 50px;
@@ -40,36 +26,4 @@
         font-size: 70px;
         border: solid white 2px;
     }
-}
-
-.hover{
-    left: 0;
-    top: -16px;
-    background-color: transparent;
-    width: 100%;
-    height: 90%;
-    position: absolute;
-    &:hover{
-
-        animation: hoverMenu 2s linear ;
-    }
-   
-}
-
-
-
-@keyframes hoverMenu {
-
-
-
-    0%{
-        border-bottom:solid  white 3px;
-        transform: translateX(-20px);        
-    }    
-
-    100%{
-        border-bottom:solid  white 3px;
-        transform: translateX(0px);
-    }
-
 }
