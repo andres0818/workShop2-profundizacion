@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/workShop2-profundizacion/static/css/main.55b48cd8.css",
+    "main.js": "/workShop2-profundizacion/static/js/main.96ac164f.js",
+    "static/media/cabecera.jpg": "/workShop2-profundizacion/static/media/cabecera.3de81110dee4f75f44f9.jpg",
+    "static/media/rensponsive.jpg": "/workShop2-profundizacion/static/media/rensponsive.9b5aacead42e955824d3.jpg",
+    "static/media/image-interactive.jpg": "/workShop2-profundizacion/static/media/image-interactive.1d330522c9ca6cf07a9c.jpg",
+    "static/media/icon-instagram.svg": "/workShop2-profundizacion/static/media/icon-instagram.8d0df55595e16bac2d486efccdc6b4b3.svg",
+    "static/media/icon-pinterest.svg": "/workShop2-profundizacion/static/media/icon-pinterest.61a3584463b61d0f0d6bc14bc5d1e40a.svg",
+    "index.html": "/workShop2-profundizacion/index.html",
+    "static/media/icon-twitter.svg": "/workShop2-profundizacion/static/media/icon-twitter.5dc7711ff2433b3b89ee7742a407e3bd.svg",
+    "static/media/facebook.svg": "/workShop2-profundizacion/static/media/facebook.e9773e52bc64ea377cb95af7ccb6877e.svg",
+    "static/media/menu.svg": "/workShop2-profundizacion/static/media/menu.5153cb809501d4309c231954bc0f9ec2.svg",
+    "main.55b48cd8.css.map": "/workShop2-profundizacion/static/css/main.55b48cd8.css.map",
+    "main.96ac164f.js.map": "/workShop2-profundizacion/static/js/main.96ac164f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55b48cd8.css",
+    "static/js/main.96ac164f.js"
+  ]
+}

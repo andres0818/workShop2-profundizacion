@@ -4,6 +4,7 @@ import Cabecera from './components/Cabecera/Cabecera'
 import Footer from './components/Footer/Footer'
 
 import './App.scss'
+import OurCreations from './components/OurCreations/OurCreations'
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
     <>
       <Cabecera />
       <Main />
+      <OurCreations/>
       <Footer />
     </>
   )
