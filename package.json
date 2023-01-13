@@ -1,4 +1,5 @@
 {
+  "homepage":"https://andres0818.github.io/workShop2-profundizacion",
   "name": "tallerdos",
   "version": "0.1.0",
   "private": true,
@@ -37,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "webpack": "^5.75.0"
   }
 }
