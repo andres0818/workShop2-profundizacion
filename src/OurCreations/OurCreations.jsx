@@ -17,7 +17,7 @@ const OurCreations = () => {
           return (
             <div className='carta'>
               <div className='contenido-carta'>
-                <img src={carta.imagen} alt='creation card' />
+                <img className='imagen' src={carta.imagen} alt='creation card' />
                 <h3 className='subtitulo'>{carta.titulo}</h3>
               </div>
             </div>

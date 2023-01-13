@@ -2,18 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 
 .seccion-titulo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin:0 150px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px 0 150px;
 }
 
-.titulo  {
-  font-family: "josefin sans";
-  font-size: xxx-large;
+.titulo {
+    font-family: "josefin sans";
+    font-size: xxx-large;
 }
 
-.boton{
+.boton {
     border: 2px solid black;
     padding: 10px 30px;
     background-color: white;
@@ -24,7 +24,7 @@
     font-family: "josefin sans";
     font-weight: bold;
 
-    &:hover{
+    &:hover {
         background-color: black;
         color: white;
     }
@@ -39,17 +39,28 @@
     margin: 0 auto;
 }
 
-.contenido-carta{
+.contenido-carta {
     position: relative;
-    &:hover{
+    color: white;
+
+    &:hover {
         color: black;
         cursor: pointer;
     }
 }
 
-.subtitulo{
+.imagen {
+    &:hover {
+        opacity: 50%;
+    }
+}
+
+.subtitulo {
     position: absolute;
     bottom: 0;
     padding: 0 1.5em;
     font-family: "josefin sans";
-    te
+    text-transform: uppercase;
+    font-size: 2.0em;
+
+}
