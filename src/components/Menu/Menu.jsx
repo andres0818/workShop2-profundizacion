@@ -9,6 +9,7 @@ const Menu = ({ lista }) => {
 
     return (
         <nav className='nav'>
+            <img src="" alt="" />
             <ul className='nav__contenedorLista'>
                 {
                     lista.map((e, index) => {

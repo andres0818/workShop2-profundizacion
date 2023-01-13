@@ -32,11 +32,32 @@
         text-decoration: none;
         color: white;
     }
+
+    &__responsiveMenu{
+        display: none;
+    }
 }
 
 
 
 
+
+@media (max-width:2390px) {
+
+    .nav{
+        &__menu{
+            display: none;
+        }
+
+        &__responsiveMenu{
+            display: flex;
+            padding: 0 50px;
+        }
+        
+    }
+
+    
+}
 
 
 

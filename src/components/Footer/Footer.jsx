@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
                 <div className='footer__redes'>
                     <Menu lista={redes} />
-                    <p>© 2021 loopstudios. All rights reserved</p>
+                    <p >© 2021 loopstudios. All rights reserved</p>
                 </div>
             </div>
         </>

@@ -12,7 +12,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 0 150px 0 150px;
+        margin: 0 auto;
         padding-top: 30px;
         font-family: 'alata';
     }
@@ -26,4 +26,30 @@
         font-size: 70px;
         border: solid white 2px;
     }
+}
+
+
+@media (max-width:2390px) {
+    .cabecera {
+
+        background-image: url('./img/rensponsive.jpg');
+        height: 70vh;
+
+
+        &__contenido {
+
+            margin: 80px auto 0 auto;
+            padding: auto 50px;
+            width: 60%;
+            font-size: 30px;
+        }
+
+        &__header {
+            padding:30px 10px 0 10px;
+        }
+
+
+    }
+
+
 }
